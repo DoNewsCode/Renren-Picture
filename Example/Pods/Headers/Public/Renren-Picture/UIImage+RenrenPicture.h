@@ -1,0 +1,1 @@
+../../../../../Renren-Picture/Classes/UIImage+RenrenPicture.h

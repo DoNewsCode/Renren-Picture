@@ -1,0 +1,19 @@
+
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/DoNewsCode/DNSpecs.git'
+source 'https://glab.tagtic.cn/developer_ios/DNPodspecs.git'
+
+#use_frameworks!
+
+platform :ios, '9.0'
+
+target 'Renren-Picture_Example' do
+  pod 'Renren-Picture', :path => '../'
+  #  pod 'Renren-MaterialEditor'
+  target 'Renren-Picture_Tests' do
+    inherit! :search_paths
+    
+    
+  end
+end

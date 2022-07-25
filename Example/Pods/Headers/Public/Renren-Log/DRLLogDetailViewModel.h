@@ -1,0 +1,1 @@
+../../../Renren-Log/Renren-Log/Classes/Detail/ViewModel/DRLLogDetailViewModel.h

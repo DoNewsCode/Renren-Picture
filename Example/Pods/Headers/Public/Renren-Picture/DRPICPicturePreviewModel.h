@@ -1,0 +1,1 @@
+../../../../../Renren-Picture/Classes/PicutrePreview/Model/DRPICPicturePreviewModel.h

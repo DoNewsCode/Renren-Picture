@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1A97B415-2D46-43B2-8640-4A6A641610BB"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39C83C8C-2033-4293-A1FA-D8DF3167C701"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Renren-Picture/Classes/ImagePicker/DRPICImagePickerController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "226"
+            endingLineNumber = "226"
+            landmarkName = "-collectionView:cellForItemAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7D1A866-D858-472A-859B-3A61FCA32594"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Renren-Picture/DRPICTestPickerViewController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D7D1A866-D858-472A-859B-3A61FCA32594 - 409e4876ae23e978"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[DRPICTestPickerViewController tableView:didSelectRowAtIndexPath:]"
+                  moduleName = "Renren-Picture_Example"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Luis/Renren-Picture/Example/Renren-Picture/DRPICTestPickerViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "210">
+               </Location>
+               <Location
+                  uuid = "D7D1A866-D858-472A-859B-3A61FCA32594 - d213d6fa21843943"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__67-[DRPICTestPickerViewController tableView:didSelectRowAtIndexPath:]_block_invoke"
+                  moduleName = "Renren-Picture_Example"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Luis/Renren-Picture/Example/Renren-Picture/DRPICTestPickerViewController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "51">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

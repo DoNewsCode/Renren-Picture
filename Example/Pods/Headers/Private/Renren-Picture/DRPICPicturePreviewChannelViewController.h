@@ -1,0 +1,1 @@
+../../../../../Renren-Picture/Classes/PicutrePreview/ViewController/DRPICPicturePreviewChannelViewController.h

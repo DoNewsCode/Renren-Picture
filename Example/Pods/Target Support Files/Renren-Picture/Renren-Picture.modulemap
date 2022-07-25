@@ -1,0 +1,6 @@
+framework module Renren_Picture {
+  umbrella header "Renren-Picture-umbrella.h"
+
+  export *
+  module * { export * }
+}

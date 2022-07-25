@@ -1,0 +1,1 @@
+../../../Renren-ResourceKit/Renren-ResourceKit/Classes/NSBundle+Renren_ResourceKitUtils.h

@@ -1,0 +1,1 @@
+../../../../../Renren-Picture/Classes/DRPICPicture.h

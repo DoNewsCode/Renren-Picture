@@ -1,0 +1,12 @@
+//
+//  DRLLogBrowseViewModel.m
+//  Renren-Log
+//
+//  Created by Ming on 2020/1/14.
+//
+
+#import "DRLLogBrowseViewModel.h"
+
+@implementation DRLLogBrowseViewModel
+
+@end

@@ -1,0 +1,1 @@
+../../../../../Renren-Picture/Classes/ImagePicker/DRPICImagePickerBottomBar.h

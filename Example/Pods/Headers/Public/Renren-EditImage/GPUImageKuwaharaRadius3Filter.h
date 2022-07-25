@@ -1,0 +1,1 @@
+../../../Renren-EditImage/Renren-EditImage/Classes/GPUImage/GPUImageKuwaharaRadius3Filter.h

@@ -1,0 +1,1 @@
+../../../RenRen-ImagePicker/RenRen-ImagePicker/Classes/DRITransition/DRIPictureBrowsePercentDrivenInteractive.h

@@ -1,0 +1,1 @@
+../../../../../Renren-Picture/Classes/PicturePicker/ViewController/DRPICPicturePickerAlbumViewController.h

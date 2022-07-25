@@ -1,0 +1,6 @@
+framework module Renren_FilterSDK {
+  umbrella header "Renren_FilterSDK.h"
+
+  export *
+  module * { export * }
+}

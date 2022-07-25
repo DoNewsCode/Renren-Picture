@@ -1,0 +1,6 @@
+framework module Pods_Renren_Picture_Example {
+  umbrella header "Pods-Renren-Picture_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,119 @@
+{
+    "ver": 1,
+    "filters": [{
+        "name": "原图",
+        "icon": "http://xyoss.g.com.cn/static/appupgrade/original.png",
+        "intensity": 0,
+        "maxIntensity":1,
+        "param": "",
+        "desc": ""
+    },
+    {
+        "name": "布鲁士蓝",
+        "icon": "http://xyoss.g.com.cn/static/appupgrade/blue.png",
+        "intensity": 1,
+        "maxIntensity":2,
+        "param": "@adjust lut wildbird.png",
+        "desc": "蓝调加持，明亮清澈"
+    },
+    {
+        "name": "月牙白皙",
+        "icon": "http://xyoss.g.com.cn/static/appupgrade/write.png",
+        "intensity": 1,
+        "maxIntensity":2,
+        "param": "@beautify bilateral 10 4 1 @style haze -0.5 -0.5 1 1 1 @curve RGB(0, 0)(94, 20)(160, 168)(255, 255) @curve R(0, 0)(129, 119)(255, 255)B(0, 0)(135, 151)(255, 255)RGB(0, 0)(146, 116)(255, 255)",
+        "desc": "柔光美白，清晰透亮"
+    },
+    {
+        "name": "蔷薇粉调",
+        "icon": "http://xyoss.g.com.cn/static/appupgrade/pink.png",
+        "intensity": 1.4,
+        "maxIntensity":2,
+        "param": "@curve B(0, 0)(68, 72)(149, 184)(255, 255) @pixblend screen 0.94118 0.29 0.29 1 20",
+        "desc": "粉嫩可爱，宛若蔷薇盛开"
+    },
+    {
+        "name": "拿坡里黄",
+        "icon": "http://xyoss.g.com.cn/static/appupgrade/yellow.png",
+        "intensity": 1,
+        "maxIntensity":2,
+        "param": "@curve R(3, 0)(23, 29)(83, 116)(167, 206)(255, 255)G(5, 0)(56, 64)(160, 189)(255, 255)B(3, 0)(48, 49)(142, 167)(248, 255)",
+        "desc": "突出细节，暖调质感"
+    },
+    {
+        "name": "复古影片",
+        "icon": "http://xyoss.g.com.cn/static/appupgrade/film.png",
+        "intensity": 1.2,
+        "maxIntensity":2,
+        "param": "@vigblend mix 10 10 30 255 91 0 1.0 0.5 0.5 3 @curve R(0, 31)(35, 75)(81, 139)(109, 174)(148, 207)(255, 255)G(0, 24)(59, 88)(105, 146)(130, 171)(145, 187)(180, 214)(255, 255)B(0, 96)(63, 130)(103, 157)(169, 194)(255, 255)",
+        "desc": "印象大片，每个人都是导演"
+    },
+    {
+        "name": "春日青",
+        "icon": "http://xyoss.g.com.cn/static/appupgrade/cyan.png",
+        "intensity": 1.2,
+        "maxIntensity":2,
+        "param": "@adjust brightness 0.21 @adjust saturation 1.32 @curve RGB(0, 0)(119, 60)(255, 255) @adjust saturation 0.85 @adjust whitebalance 0.32 0.96",
+        "desc": "青葱岁月，美好生活"
+    },
+    {
+        "name": "群青月辉",
+        "icon": "http://xyoss.g.com.cn/static/appupgrade/moon.png",
+        "intensity": 2,
+        "maxIntensity":2,
+        "param": "@adjust brightness 0.2 @adjust shadowhighlight -16 10 @adjust whitebalance -0.13 0.97",
+        "desc": "似月光清冷，明丽透彻"
+    },
+    {
+        "name": "星空紫",
+        "icon": "http://xyoss.g.com.cn/static/appupgrade/violet.png",
+        "intensity": 1.4,
+        "maxIntensity":2,
+        "param": "@adjust brightness 0.27 @adjust saturation 1.56 @adjust hsl -0.01 0.1 0.01 @adjust whitebalance -0.13 0.96 @adjust colorbalance 0.17 0 0.06",
+        "desc": "梦幻紫调，亦真亦幻"
+    },
+    {
+        "name": "马尔代夫",
+        "icon": "http://xyoss.g.com.cn/static/appupgrade/maldives.png",
+        "intensity": 1.2,
+        "maxIntensity": 2,
+        "param": "@adjust saturation 1.92 @adjust shadowhighlight -52 33 @adjust whitebalance -0.1 1.04 @style haze -0.155 0.19 1 1 1",
+        "desc": "饱和度提升，异域风情"
+    },{
+        "name": "云尼绯红",
+        "icon": "http://xyoss.g.com.cn/static/appupgrade/red.png",
+        "intensity": 1.6,
+        "maxIntensity":2,
+        "param": "@adjust brightness 0.21 @adjust saturation 1.68 @adjust whitebalance 0.25 0.9 @curve G(0, 0)(102, 100)(255, 255)B(0, 0)(175, 192)(255, 255)RGB(0, 0)(140, 157)(255, 255)",
+        "desc": "色彩丰富，春暖花开"
+    },
+    {
+        "name": "落日浅金",
+        "icon": "http://xyoss.g.com.cn/static/appupgrade/gold.png",
+        "intensity": 1,
+        "maxIntensity":2,
+        "param": "adjust whitebalance 0.38 0.99 @curve B(0, 0)(223, 210)(255, 255) @adjust brightness 0.08 @adjust brightness 0.08",
+        "desc": "电影色调，是有故事的照片"
+    },
+    {
+        "name": "质感胶卷",
+        "icon": "http://xyoss.g.com.cn/static/appupgrade/rolls.png",
+        "intensity": 1,
+        "maxIntensity":1,
+        "param": "@adjust brightness 0.15 @adjust saturation 0 @curve RGB(0, 0)(84, 71)(180, 191)(255, 255) @adjust contrast 0.99 @adjust colorbalance 0.03 0.01 0.01 @style haze 0.05 0.07 1 1 1 @adjust brightness 0.08 @adjust whitebalance -0.01 1 @curve RGB(0, 0)(164, 183)(255, 255) @adjust colorbalance 0 0.01 0.01 @curve RGB(0, 0)(66, 60)(255, 255) @adjust exposure -0.08 @adjust hue 0.663225 @adjust contrast 1.16 @adjust brightness 0.1 @adjust shadowhighlight -200 14",
+        "desc": "强化光影，质感突出"
+    },
+    {
+        "name": "沉静素描",
+        "icon": "http://xyoss.g.com.cn/static/appupgrade/sketch.png",
+        "intensity": 1,
+        "maxIntensity":1,
+        "param": "@style sketch 0.8 @style haze 0.295 0.375 1 1 1 @adjust saturation 0 @adjust brightness 0.31 @adjust level 0.11 1 1.46 @curve RGB(0, 0)(153, 176)(255, 255) @curve R(0, 0)(170, 170)(255, 255)",
+        "desc": "色彩丰富，春暖花开"
+    }
+    ],
+    "video":[
+        
+    ]
+}
+

@@ -1,0 +1,1 @@
+../../../Renren-Pop/Renren-Pop/Classes/VersionTipView/DRPScoreViewAction.h

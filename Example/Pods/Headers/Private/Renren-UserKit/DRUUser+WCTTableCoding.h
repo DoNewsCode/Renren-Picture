@@ -1,0 +1,1 @@
+../../../Renren-UserKit/Renren-UserKit/Classes/Model/DRUUser+WCTTableCoding.h

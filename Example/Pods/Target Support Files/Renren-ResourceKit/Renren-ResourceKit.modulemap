@@ -1,0 +1,6 @@
+framework module Renren_ResourceKit {
+  umbrella header "Renren-ResourceKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

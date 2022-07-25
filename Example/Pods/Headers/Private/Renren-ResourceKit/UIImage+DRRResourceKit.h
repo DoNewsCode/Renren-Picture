@@ -1,0 +1,1 @@
+../../../Renren-ResourceKit/Renren-ResourceKit/Classes/UIImage+DRRResourceKit.h

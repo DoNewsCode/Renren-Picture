@@ -1,0 +1,1 @@
+../../../../../Renren-Picture/Classes/PicutrePreview/View/DRPICPicturePreviewChannelCollectionViewCell.h

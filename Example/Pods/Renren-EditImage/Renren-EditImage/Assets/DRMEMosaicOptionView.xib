@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DRMEMosaicOptionView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="166"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="101" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DMk-8t-bNg">
+                    <rect key="frame" x="157" y="46" width="19" height="22"/>
+                    <state key="normal" image="me_red_mosaic_normal"/>
+                    <state key="selected" image="me_red_mosaic_selected"/>
+                    <connections>
+                        <action selector="clickMosaicBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="mCf-Mc-p5y"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgw-Fz-kik">
+                    <rect key="frame" x="238" y="46" width="19" height="22"/>
+                    <state key="normal" image="me_square_mosaic_normal"/>
+                    <state key="selected" image="me_square_mosaic_selected"/>
+                    <connections>
+                        <action selector="clickMosaicBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="iVC-u8-bZz"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o0h-Qq-Dal">
+                    <rect key="frame" x="344" y="42" width="28" height="28"/>
+                    <state key="normal" image="me_reset_mosaic_no"/>
+                    <state key="disabled" image="me_reset_mosaic_no"/>
+                    <state key="selected" image="me_reset_mosaic_yes"/>
+                    <connections>
+                        <action selector="clickResetBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="MNC-x4-Q1t"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMg-bY-tCa">
+                    <rect key="frame" x="10" y="94" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="Ghi-E6-xD5"/>
+                        <constraint firstAttribute="height" constant="44" id="z26-zA-Xha"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                    <state key="normal" image="me_cancel"/>
+                    <connections>
+                        <action selector="clickCancelBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="rLX-Kf-hKg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGx-Jf-Y9H">
+                    <rect key="frame" x="360" y="94" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="TYk-CX-rTH"/>
+                        <constraint firstAttribute="height" constant="44" id="VeY-tw-EMN"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                    <state key="normal" image="me_sure"/>
+                    <connections>
+                        <action selector="clickSureBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="HoE-Ce-X6a"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.34999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="RMg-bY-tCa" secondAttribute="bottom" constant="28" id="8rf-6b-pXb"/>
+                <constraint firstItem="o0h-Qq-Dal" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="42" id="MQy-tg-Xez"/>
+                <constraint firstItem="RMg-bY-tCa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="MwB-t7-Z9E"/>
+                <constraint firstAttribute="centerX" secondItem="DMk-8t-bNg" secondAttribute="trailing" constant="31" id="O7B-D7-hfe"/>
+                <constraint firstItem="vgw-Fz-kik" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="46" id="cfA-Ff-bjG"/>
+                <constraint firstItem="DMk-8t-bNg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="46" id="gma-sl-dMF"/>
+                <constraint firstAttribute="trailing" secondItem="o0h-Qq-Dal" secondAttribute="trailing" constant="42" id="igk-wN-sJv"/>
+                <constraint firstAttribute="trailing" secondItem="dGx-Jf-Y9H" secondAttribute="trailing" constant="10" id="jWq-od-kMh"/>
+                <constraint firstItem="vgw-Fz-kik" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="31" id="rHF-In-CxW"/>
+                <constraint firstAttribute="bottom" secondItem="dGx-Jf-Y9H" secondAttribute="bottom" constant="28" id="rta-PR-CFg"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="defautMosaic" destination="DMk-8t-bNg" id="kTi-Ab-UNM"/>
+                <outlet property="resetBtn" destination="o0h-Qq-Dal" id="fZR-6v-eUc"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="132.58928571428572"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="me_cancel" width="14" height="14"/>
+        <image name="me_red_mosaic_normal" width="19" height="19"/>
+        <image name="me_red_mosaic_selected" width="19" height="19"/>
+        <image name="me_reset_mosaic_no" width="28" height="28"/>
+        <image name="me_reset_mosaic_yes" width="28" height="28"/>
+        <image name="me_square_mosaic_normal" width="19" height="19"/>
+        <image name="me_square_mosaic_selected" width="19" height="19"/>
+        <image name="me_sure" width="21" height="14"/>
+    </resources>
+</document>

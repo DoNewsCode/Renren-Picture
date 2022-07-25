@@ -1,0 +1,6 @@
+framework module DNStatisticKit {
+  umbrella header "DNStatisticKit.h"
+
+  export *
+  module * { export * }
+}

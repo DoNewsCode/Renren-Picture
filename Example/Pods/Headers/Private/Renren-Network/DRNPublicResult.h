@@ -1,0 +1,1 @@
+../../../Renren-Network/Renren-Network/Classes/Request/DRNPublicResult.h

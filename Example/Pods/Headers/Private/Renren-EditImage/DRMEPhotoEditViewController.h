@@ -1,0 +1,1 @@
+../../../Renren-EditImage/Renren-EditImage/Classes/Controller/DRMEPhotoEditViewController.h
